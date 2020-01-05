@@ -1,0 +1,5 @@
+How-To:
+::From; (https://unix.stackexchange.com/questions/35649/second-keyboard-to-run-commands)
+- Install `actkbd` source code
+- Run `make` in the source folder in a terminal
+- Disable the keyboard input with: `xinput set-prop 15 "Device Enabled" 0`
